@@ -79,6 +79,7 @@ article>img{
     height: 194px;
     width: 300px;
     background-position: cover;
+    background-color: white;
 }
 
 .fondoHarley{
@@ -86,6 +87,7 @@ article>img{
     height: 194px;
     width: 300px;
     background-position: cover;
+    background-color: white;
 }
 
 /* footer */
@@ -95,4 +97,11 @@ footer{
     color: #FFF9F9;
     padding: 16px 15px;
     font-size: 16px;
+}
+
+.fa-heart{
+    color: #CC2424;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
 }
