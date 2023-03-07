@@ -75,14 +75,14 @@ article>img{
 }
 
 .fondoBatman{
-    background-image: url("/img/fondoBatman.png");
+    background-image: url("../img/fondoBatman.png");
     height: 194px;
     width: 300px;
     background-position: cover;
 }
 
 .fondoHarley{
-    background-image: url("/img/fondoHarleyQuinn.png");
+    background-image: url("../img/fondoHarleyQuinn.png");
     height: 194px;
     width: 300px;
     background-position: cover;
