@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #1CD1B0;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+h1{
+    background-color: #00669F;
+    padding:20px;
+    font-weight: normal;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+section{
+    margin: 150px 132px;
+    height: 530px;
+}
+
+article{
+    position:relative;
+    width: 300px;
+    height: 529px;
+    display: inline-block;
+    background-color: #F3F3F3;
+    margin-left: 30px;
+}
+
+.contenedor-info-heroe{
+    height: 336px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    top: 270px;
+}
+
+.contenedor-info-heroe>h2{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.info-heroe{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+article>img{
+    border-radius: 80px;
+    position: absolute;
+    left: 90px;
+    top: 135px;
+}
+
+.ver-mas{
+    margin-top: 30px;
+    height: 49px;
+    width: 129px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 15px 30px;
+}
+
+.fondoBatman{
+    background-image: url("/img/fondoBatman.png");
+    height: 194px;
+    width: 300px;
+    background-position: cover;
+}
+
+.fondoHarley{
+    background-image: url("/img/fondoHarleyQuinn.png");
+    height: 194px;
+    width: 300px;
+    background-position: cover;
+}
+
+/* footer */
+
+footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    padding: 16px 15px;
+    font-size: 16px;
+}
